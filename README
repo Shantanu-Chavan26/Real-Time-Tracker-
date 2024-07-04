@@ -14,4 +14,4 @@ If a marker for the id exists, update its position, otherwise, create a new mark
 
 
 
-run command: npx nodemon app.js
+run command: npx nodemon app.js.
