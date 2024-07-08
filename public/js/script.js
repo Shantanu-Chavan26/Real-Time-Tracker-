@@ -20,6 +20,9 @@ if(navigator.geolocation)
 
 const map = L.map("map").setView([0,0] , 16);
 
+// {x} and {y} should be replaced with the x and y tile numbers.
+
+// {z} should be replaced with the zoom level.
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
     attribution:"Backend Tracking Map by Shantanu"
